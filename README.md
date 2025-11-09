@@ -22,6 +22,7 @@ It provides a robust and extensible foundation for running, tracking, and stream
 ✅ Async SQLAlchemy + SQLite (aiosqlite) persistence
 
 ## Architecture
+```
 langgraph-server/
 ├── app/
 │   ├── main.py                 # FastAPI entrypoint
@@ -57,7 +58,7 @@ langgraph-server/
 ├── .env                        # Environment variables
 ├── requirements.txt            # Dependencies
 └── README.md                   # Documentation
-
+```
 ## Features and Utilities
 - Utility	Description
 - Run Manager	Creates, tracks, and updates workflow runs
@@ -93,7 +94,6 @@ langgraph-server/
 ## Installation & Setup
 1. Create and activate a virtual environment
 python -m venv venv
-source venv/bin/activate     # (Linux/Mac)
 venv\Scripts\activate        # (Windows)
 
 2. Install dependencies
